@@ -1,0 +1,31 @@
+.na{
+    color: white;
+}
+
+.start,
+.start > *{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.start li{
+    
+}
+
+.card{
+    width: 100%;
+}
+
+.about > *{
+    background-color: #1abc9c;
+    color: white;
+    line-height: 40px;
+}
+
+.top-footer{
+    background-color: #3a546d;
+}
+
+.bottom-footer{
+    background-color: #2c3e50;
+}
