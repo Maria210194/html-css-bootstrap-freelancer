@@ -2,174 +2,187 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
-    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Bootstrap Freelancer</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="na">
+    <!-- header -->
+    <header>
+        <div class="container-fluid ms-bg-darkgrey">
             <div class="row">
-                <div class="col-12 bg-black">
-                    <div class="row">
-                        <div class="col-10">START BOOTSTART</div>
-                        <div class="col-2">NAV</div>
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand text-uppercase link-light" href="#">Start Bootstrap</a>
+                            <button class="navbar-toggler link-light" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-link link-light" href="#">Portfolio</a>
+                                    <a class="nav-link link-light" href="#">About</a>
+                                    <a class="nav-link link-light" href="#">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- / header -->
+    <!-- profile section -->
+    <section id="profile">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-8 offset-2">
+                    <img src="img/avatar.svg" class="img-fluid" alt="Profile">
+                    <h2 class="text-uppercase">Start Bootstrap</h2>
+                    <div>Stella</div>
+                    <div class="ms-direction-row text-center">
+                        <div class="text-uppercase">Graphic artist</div>
+                        <div class="text-uppercase">- Web design</div>
+                        <div class="text-uppercase">- Illustrator</div>
+
                     </div>
                 </div>
             </div>
         </div>
-        <div class="start">
+    </section>
+    <!-- / profile section -->
+    <!-- portfolio section -->
+    <section id="portfolio">
+        <div class="container">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <img src="img/avatar.svg" alt="avatar">
-                    <h1>START BOOSTRART</h1>
-                    <div class="star">
-                        STAR
+                <div class="col-12 text-uppercase text-center">Portfolio</div>
+                <div class="col-12 text-center"><i class="fa-solid fa-star"></i></div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 card">
+                    <img class="rounded-3" src="img/cabin.png" alt="Cabin">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 card rounded-3">
+                    <img class="rounded-3" src="img/cake.png" alt="Cake">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 card rounded">
+                    <img class="rounded-3" src="img/circus.png" alt="Circus">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 card rounded">
+                    <img class="rounded-3" src="img/game.png" alt="Game">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 card rounded">
+                    <img class="rounded-3" src="img/safe.png" alt="Safe">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 card rounded">
+                    <img class="rounded-3" src="img/submarine.png" alt="Submarine">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / portfolio section -->
+
+    <!-- about section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-uppercase text-center">About</div>
+                <div class="col-12 text-center"><i class="fa-solid fa-star"></i></div>
+            </div>
+            <div class="row">
+                <div class="col-8 offset-2 col-md-4 offset-lg-1 col-lg-5">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
+                    quibusdam illum inventore pariatur sit dolorem distinctio dolorum
+                    tenetur laborum? Voluptates consectetur voluptatibus hic vitae, sint
+                    corporis perspiciatis cupiditate iste officiis.
+                </div>
+                <div class="col-8 offset-2 offset-md-0 col-md-4 col-lg-5">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+                    id eos distinctio qui sequi est porro! Pariatur sequi necessitatibus
+                    blanditiis voluptate, aliquam rem eligendi dicta. Ea dolor quidem
+                    dicta deserunt.
+                </div>
+            </div>
+            <div class="row d-flex">
+                <div class="col-10 offset-1 d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-secondary btn-sm">
+                        <i class="fa-solid fa-download"></i>
+                        <span>Download</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / about section -->
+
+    <!-- contacts section -->
+    <section id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1 text-uppercase text-center">Contact</div>
+                <div class="col-10 offset-1 text-center"><i class="fa-solid fa-star"></i></div>
+            </div>
+            <div class="row">
+                <div class="col-8 offset-2 col-lg-10 offset-lg-1">
+                    <div class="input-group input-group-sm mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Name</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Phone Number</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <div>
-                        <ul>
-                            <li>Grafic artist</li>
-                            <li>Web designer</li>
-                            <li>Illustrator</li>
-                        </ul>
+                        <button type="button" class="btn sm-btn-greenwater">Send</button>
                     </div>
                 </div>
-                <div class="col-1"></div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
-                <h2>PORTFOLIO</h2>
-                <div class="star"> STAR</div>
-            </div>
-            <div class="col-1"></div>
-        </div>
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
-                <img class="card" src="img/cabin.png" alt="cabin">
-            </div>
-            <div class="col-1"></div>
-        </div>
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
-                <img class="card" src="img/cake.png" alt="cake">
-            </div>
-            <div class="col-1"></div>
-        </div>
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
-                <img class="card" src="img/circus.png" alt="circus">
-            </div>
-            <div class="col-1"></div>
-        </div>
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
-                <img class="card" src="img/game.png" alt="game">
-            </div>
-            <div class="col-1"></div>
-        </div>
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
-                <img class="card" src="img/safe.png" alt="safe">
-            </div>
-            <div class="col-1"></div>
-        </div>
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10">
-                <img class="card" src="img/submarine.png" alt="submarine">
-            </div>
-            <div class="col-1"></div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="about">
-            <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <h2>About</h2>
-                    <div class="star"></div>
-                    <div class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, provident
-                        dolorum. Sit
-                        voluptate,
-                        illum velit voluptatibus, odio excepturi laudantium sapiente iusto quis aut omnis veniam, fugit
-                        harum eius voluptates obcaecati!</div>
-                </div>
-                <button>Download</button>
-                <div class="col-1"></div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="contact">
-            <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <h2>Contact me</h2>
-                    <div class="star"> STAR</div>
-                    <div class="input"></div>
-                    <button></button>
-                </div>
-                <div class="col-1"></div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="top-footer">
-            <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <h5>Location</h5>
-                    <div>Lorem ipsum dolor sit amet, com quidem atque!</div>
-                </div>
-                <div class="col-1"></div>
-            </div>
-            <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <div class="around">Around the web</div>
-                    <button>face</button>
-                    <button>goo</button>
-                    <button>twit</button>
-                    <button>linked</button>
-                </div>
-                <div class="col-1"></div>
-            </div>
-            <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <div>About Freelancer</div>
-                    <div>Lorem ipsum, dolor sit. Sed fugit nihil soluta? Blanditiis at dicta unde debitis tempore
-                        perferendis earum quidem repudiandae et accusamus? Suscipit iure nobis consequuntur cupiditate
-                        in.</div>
-                </div>
-                <div class="col-1"></div>
-            </div>
-        </div>
-        <div class="bottom-footer">
-            <div class="col-1"></div>
-            <div class="col-10">
-                copywrith
-            </div>
-            <div class="col-1"></div>
-        </div>
-    </div>
+    </section>
+    <!-- / contacts section -->
 
+    <!-- footer -->
+    <footer>
+        <div class="info-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">col 1</div>
+                    <div class="col-12 col-md-4">col 2</div>
+                    <div class="col-12 col-md-4">col 3</div>
+                </div>
+            </div>
+        </div>
 
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col">copyright</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / footer -->
 </body>
 
 </html>
