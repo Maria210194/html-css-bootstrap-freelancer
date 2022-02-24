@@ -20,7 +20,7 @@
         <div class="container-fluid ms-bg-darkgrey">
             <div class="row">
                 <div class="col">
-                    <nav class="navbar navbar-expand-lg navbar-light">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
                         <div class="container-fluid">
                             <a class="navbar-brand text-uppercase link-light" href="#">Start Bootstrap</a>
                             <button class="navbar-toggler link-light" type="button" data-bs-toggle="collapse"
@@ -28,7 +28,7 @@
                                 aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                                 <div class="navbar-nav">
                                     <a class="nav-link link-light" href="#">Portfolio</a>
                                     <a class="nav-link link-light" href="#">About</a>
@@ -43,18 +43,19 @@
     </header>
     <!-- / header -->
     <!-- profile section -->
-    <section id="profile">
+    <section id="profile" class="py-3 py-md-5">
         <div class="container-fluid">
             <div class="row text-center">
                 <div class="col-8 offset-2">
-                    <img src="img/avatar.svg" class="img-fluid" alt="Profile">
-                    <h2 class="text-uppercase">Start Bootstrap</h2>
-                    <div>Stella</div>
-                    <div class="ms-direction-row text-center">
-                        <div class="text-uppercase">Graphic artist</div>
-                        <div class="text-uppercase">- Web design</div>
-                        <div class="text-uppercase">- Illustrator</div>
-
+                    <img src="img/avatar.svg" class="figure-img" id="ms-wid" alt="Profile">
+                    <h2 class="text-uppercase py-2">Start Bootstrap</h2>
+                    <div class="py-3">Stella</div>
+                    <div class="col-12">
+                        <div class="row text-center">
+                            <div class="col-4 text-uppercase sm-small-font">Graphic artist</div>
+                            <div class="col-4 text-uppercase sm-small-font">Web design</div>
+                            <div class="col-4 text-uppercase sm-small-font">Illustrator</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -62,11 +63,11 @@
     </section>
     <!-- / profile section -->
     <!-- portfolio section -->
-    <section id="portfolio">
+    <section id="portfolio" class="py-3 py-md-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-uppercase text-center">Portfolio</div>
-                <div class="col-12 text-center"><i class="fa-solid fa-star"></i></div>
+                <div class="col-12 py-2 text-uppercase text-center">Portfolio</div>
+                <div class="col-12 py-3 text-center"><i class="fa-solid fa-star"></i></div>
             </div>
 
             <div class="row">
@@ -94,11 +95,11 @@
     <!-- / portfolio section -->
 
     <!-- about section -->
-    <section id="about">
+    <section id="about" class="py-3 py-md-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-uppercase text-center">About</div>
-                <div class="col-12 text-center"><i class="fa-solid fa-star"></i></div>
+                <div class="col-12 py-2 text-uppercase text-center">About</div>
+                <div class="col-12 py-3 text-center"><i class="fa-solid fa-star"></i></div>
             </div>
             <div class="row">
                 <div class="col-8 offset-2 col-md-4 offset-lg-1 col-lg-5">
@@ -114,8 +115,8 @@
                     dicta deserunt.
                 </div>
             </div>
-            <div class="row d-flex">
-                <div class="col-10 offset-1 d-flex justify-content-center">
+            <div class="row text-center py-3">
+                <div class="col-10 offset-1 justify-content-center">
                     <button type="button" class="btn btn-outline-secondary btn-sm">
                         <i class="fa-solid fa-download"></i>
                         <span>Download</span></button>
@@ -126,11 +127,11 @@
     <!-- / about section -->
 
     <!-- contacts section -->
-    <section id="contacts">
+    <section id="contacts" class="py-3 py-md-5">
         <div class="container">
             <div class="row">
-                <div class="col-10 offset-1 text-uppercase text-center">Contact</div>
-                <div class="col-10 offset-1 text-center"><i class="fa-solid fa-star"></i></div>
+                <div class="col-10 py-2 offset-1 text-uppercase text-center">Contact</div>
+                <div class="col-10 py-3 offset-1 text-center"><i class="fa-solid fa-star"></i></div>
             </div>
             <div class="row">
                 <div class="col-8 offset-2 col-lg-10 offset-lg-1">
@@ -166,11 +167,11 @@
     <footer>
         <div id="info-footer">
             <div class="container">
-                <div class="row">
+                <div class="row py-3 py-md-5">
                     <div class="col-12 col-md-4 ">
                         <div class="text-center">
                             <h6 class="text-uppercase">Location</h6>
-                            <span>2217 Malibù street, California, CA 210194</span>
+                            <span class="sm-small-font">2217 Malibù street, California, CA 210194</span>
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
@@ -187,7 +188,7 @@
                     <div class="col-12 col-md-4">
                         <div class="text-center">
                             <h6 class="text-uppercase">About the freelancer</h6>
-                            <div>Freelance is a free to use my english, open source Bpptstrap
+                            <div class="sm-small-font">Freelance is a free to use my english, open source Bpptstrap
                                 theme created by <a href="#">Start Bootstrap</a></div>
                         </div>
                     </div>
@@ -196,11 +197,12 @@
         </div>
         </div>
 
-        <div class="copyright">
+        <div id="copyright" class="py-3">
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="text-center">Copyright <i class="fa-regular fa-copyright"></i> Your Website 2077
+                        <div class="text-center sm-small-font">Copyright <i class="fa-regular fa-copyright"></i> Your
+                            Website 2077
                         </div>
                     </div>
                 </div>
